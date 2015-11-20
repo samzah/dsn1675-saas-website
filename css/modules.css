@@ -1,7 +1,7 @@
 /*!
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;nice-lists;buttons;forms;accessibility;print
+ * http://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;icons;hidden;positioning;buttons;forms;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -383,32 +383,6 @@ svg {
 
 .width-full, .w-1 {
   width: 100%;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul li::before {
-  content: "·";
-  float: left;
-  margin-left: -1.6em;
-  width: 1.3em;
-  text-align: right;
-}
-
-ol {
-  counter-reset: ol-simple-numbers 20;
-  list-style-type: none;
-}
-
-ol li::before {
-  float: left;
-  margin-left: -1.6em;
-  width: 1.3em;
-  counter-increment: ol-simple-numbers;
-  content: counter(ol-simple-numbers);
-  text-align: right;
 }
 
 .link-box {

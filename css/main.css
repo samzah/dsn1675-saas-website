@@ -14,11 +14,15 @@ html {
 
   background-color: #fff;
 
-  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.ubuntu {
+font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -27,22 +31,16 @@ body {
   padding: 0;
 }
 
+h2 {
+
+}
+
 a,
 a:link,
 a:visited {
-  color: #0074D9;
   text-decoration: none;
 }
 
-.button {
-  background-color: grey;
-  border-radius: 0.4em;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
-}
 
 .title {
   display: block;

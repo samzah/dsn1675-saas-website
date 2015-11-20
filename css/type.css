@@ -8,11 +8,8 @@ html {
   line-height: 1.3;
 }
 
-a {
-  background-color: transparent;
-}
-
-sub, sup {
+sub,
+sup {
   font-size: 75%;
   line-height: 1px;
   position: relative;
@@ -29,40 +26,6 @@ sub {
 
 pre, code, kbd, samp {
   font-size: 100%;
-}
-
-abbr[title] {
-  border-bottom: 1px dotted;
-  text-decoration: none;
-}
-
-b, strong {
-  font-weight: bold;
-}
-
-dfn, caption {
-  font-style: italic;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid;
-  height: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-}
-
-th, td {
-  border-bottom: 1px solid;
-  text-align: left;
-}
-
-thead th {
-  vertical-align: bottom;
 }
 
 .text-left {
@@ -131,7 +94,7 @@ h5, .mega {
   line-height: 1.2184;
 }
 
-h6, .kilo, input, textarea {
+h6, .kilo {
   font-size: 1.0000rem;
   line-height: 1.3000;
 }
@@ -164,18 +127,6 @@ small, .milli {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3250rem;
-}
-
-.push-right-quarter, .push-r-1-4 {
-  margin-right: 0.3250rem;
-}
-
-.push-right-half, .push-r-1-2 {
-  margin-right: 0.6500rem;
-}
-
-.push-right, .push-r {
-  margin-right: 1.3rem;
 }
 
 .pad-top, .pad-t {
@@ -222,8 +173,7 @@ small, .milli {
   padding: 0.6500rem;
 }
 
-.island-quarter, .island-1-4,
-td, th, fieldset {
+.island-quarter, .island-1-4 {
   padding: 0.3250rem;
 }
 
@@ -296,7 +246,7 @@ h5, .mega {
   line-height: 1.2444;
 }
 
-h6, .kilo, input, textarea {
+h6, .kilo {
   font-size: 1.0000rem;
   line-height: 1.4000;
 }
@@ -329,18 +279,6 @@ small, .milli {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3500rem;
-}
-
-.push-right-quarter, .push-r-1-4 {
-  margin-right: 0.3500rem;
-}
-
-.push-right-half, .push-r-1-2 {
-  margin-right: 0.7000rem;
-}
-
-.push-right, .push-r {
-  margin-right: 1.4rem;
 }
 
 .pad-top, .pad-t {
@@ -387,8 +325,7 @@ small, .milli {
   padding: 0.7000rem;
 }
 
-.island-quarter, .island-1-4,
-td, th, fieldset {
+.island-quarter, .island-1-4 {
   padding: 0.3500rem;
 }
 
@@ -463,7 +400,7 @@ h5, .mega {
   line-height: 1.3333;
 }
 
-h6, .kilo, input, textarea {
+h6, .kilo {
   font-size: 1.0000rem;
   line-height: 1.5000;
 }
@@ -496,18 +433,6 @@ small, .milli {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3750rem;
-}
-
-.push-right-quarter, .push-r-1-4 {
-  margin-right: 0.3750rem;
-}
-
-.push-right-half, .push-r-1-2 {
-  margin-right: 0.7500rem;
-}
-
-.push-right, .push-r {
-  margin-right: 1.5rem;
 }
 
 .pad-top, .pad-t {
@@ -554,8 +479,7 @@ small, .milli {
   padding: 0.7500rem;
 }
 
-.island-quarter, .island-1-4,
-td, th, fieldset {
+.island-quarter, .island-1-4 {
   padding: 0.3750rem;
 }
 
@@ -630,7 +554,7 @@ h5, .mega {
   line-height: 1.3333;
 }
 
-h6, .kilo, input, textarea {
+h6, .kilo {
   font-size: 1.0000rem;
   line-height: 1.5000;
 }
@@ -663,18 +587,6 @@ small, .milli {
 
 .push-quarter, .push-1-4 {
   margin-bottom: 0.3750rem;
-}
-
-.push-right-quarter, .push-r-1-4 {
-  margin-right: 0.3750rem;
-}
-
-.push-right-half, .push-r-1-2 {
-  margin-right: 0.7500rem;
-}
-
-.push-right, .push-r {
-  margin-right: 1.5rem;
 }
 
 .pad-top, .pad-t {
@@ -721,8 +633,7 @@ small, .milli {
   padding: 0.7500rem;
 }
 
-.island-quarter, .island-1-4,
-td, th, fieldset {
+.island-quarter, .island-1-4 {
   padding: 0.3750rem;
 }
 

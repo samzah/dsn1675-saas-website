@@ -35,7 +35,6 @@ font-family: 'Ubuntu', sans-serif;
 
 .title {
   display: block;
-
   text-align: center;
 }
 
@@ -57,22 +56,14 @@ font-family: 'Ubuntu', sans-serif;
   background-color: #efefef;
 }
 
-@media only screen and (min-width: 30em) {
-
-  .nav {
+.nav {
     text-align: center;
   }
-
-  .nav li {
-    display: inline-block;
-  }
-
-}
 
 @media only screen and (min-width: 38em) {
 
   .nav {
-    text-align: left;
+    text-align: right;
   }
 
 }

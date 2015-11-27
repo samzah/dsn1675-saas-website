@@ -60,6 +60,11 @@ font-family: 'Ubuntu', sans-serif;
     text-align: center;
   }
 
+.wrapper {
+  max-width: 70em;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav {

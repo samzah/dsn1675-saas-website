@@ -84,6 +84,10 @@ font-family: 'Ubuntu', sans-serif;
   text-decoration: none;
 }
 
+.skip-links a:focus {
+  top: 0;
+}
+
 @media only screen and (min-width: 38em) {
 
   .nav {

@@ -36,59 +36,123 @@
 
 </header>
 
+<main class="grid">
 
+  <div class="unit xs-1 s-1 m-1 l-1 text-center section-dark">
+    <h2 class="pad-t">Join the community</h2>
+  </div>
 
-<form action="https://formspree.io/zahi0004@algonquinlive.com" method="post">
+  <form class="unit xs-1 s-1 m-1 l-1 text-center">
 
-<div>
-    <label for="name">Name</label>
-    <input name="name" id="name" required>
-    </div>
+  <fieldset>
+    <legend class="unit xs-1 s-1 m-1 l-1 island mega">Personal Information</legend>
+    <div class="grid">
 
-<div>
-    <label for="email">Your e-mail</label>
-    <input name="email" id="email" type="email" placeholder="you@thing.com"> required
-</div>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <label for="first-name">First Name</label>
+        <input class="push text-input" type="text" name="name" id="name" required>
+      </div>
 
- <div>
-     <label for="subject">Subject</label>
-     <select id="subject" name="_subject">
-        <option>Looking for freelancer</option>
-        <option>I want to have dinner with you</option>
-    </select>
-</div>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <label for="last-name">Last Name</label>
+        <input class="push text-input" type="text"  id="last-name" required>
+      </div>
 
-<fieldset>
-    <legend>How are you feeling today?</legend>
-    <input id="happy" type="radio" name="feeling">
-    <label for="happy">Happy</label>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <label for="user-name">Preferred Userame</label>
+        <input class="push text-input" type="text" id="user-name" required>
+      </div>
 
-     <input id="sad" type="radio" name="feeling">
-    <label for="sad">Sad</label>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <label for="email">Email Address</label>
+        <input class="push text-input" type="email" id="email" placeholder="example@email.com" required>
+      </div>
 
-     <input id="tired" type="radio" name="feeling">
-    <label for="tired">Tired</label>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <label for="password">Password</label>
+        <input class="push text-input" type="password" id="password" required>
+      </div>
 
-     <input id="super" type="radio" name="feeling">
-    <label for="super">Super</label>
+      <div class="unit xs-1 s-1 m-1 l-1">
+        <label for="confirm-password"> Confirm Password</label>
+        <input class="push text-input" type="password" id="confirm-password" required>
+      </div>
 
-</fieldset>
+      <div class="unit xs-1 s-1 m-1 l-1">
+       <label for="subject">Select a plan</label>
+        <select id="subject" name="_subject">
+          <option>Just Viewing - Free to use</option>
+          <option>Professional</option>
+          <option>Elite</option>
+        </select>
+     </div>
 
-    <div>
-        <label for="message">Message</label>
-        <textarea name="message" id="message" required></textarea>
-    </div>
+  </fieldset>
 
-    <div>
-        <button type="submit">Send!</button>
-    </div>
+  <fieldset class="unit xs-1 s-1 m-1 l-1">
+    <legend class="unit xs-1 s-1 m-1 l-1">Payment Options</legend>
 
-<input type="hidden" name="_next" value="http://erinborgmeyer.github.io/saas/thank-you.html">
+    <fieldset class="unit xs-1 s-1 m-1 l-1">
+      <legend class="unit xs-1 s-1 m-1 l-1">Select a payment method</legend>
 
+        <input id="viewing" type="radio" name="plan">
+          <label for="viewing">Visa</label>
 
+        <input id="prof" type="radio" name="plan">
+          <label for="prof">Mastercard</label>
+
+        <input id="elite" type="radio" name="plan">
+          <label for="elite">American Express</label>
+
+        <div class="unit xs-1 s-1 m-1 l-1 pad-t">
+         <label for="confirm-password">Card Holder's Full Name</label>
+         <input class="push text-input" name="name" id="card-holder" required>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1 l-1 pad-t">
+         <label for="confirm-password">Card Number</label>
+         <input class="push text-input" id="card-number" inputmode="numeric" required>
+        </div>
+
+      <div class="unit xs-1 s-1 m-1 l-1">
+       <label for="subject">Expiration Date</label>
+        <select class="select" id="month" required>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+
+        <select class="select" id="year" required>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+          <option>2020</option>
+          <option>2021</option>
+        </select>
+     </div>
+
+    </fieldset>
+
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+
+  </fieldset>
 
 </form>
 
+</main>
 
 <footer class="section-white micro grey island-half" role="contentinfo" id="footer">
   <p>© Share your ink <b>&middot;</b><a href="#top"> Top</a></p>
@@ -101,6 +165,7 @@
   </nav>
 
 </footer>
+
 
 </body>
 

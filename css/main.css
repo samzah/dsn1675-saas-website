@@ -33,11 +33,14 @@ font-family: 'Ubuntu', sans-serif;
   color: #fff;
 }
 
-nav a {
+header nav a {
   text-decoration: none;
   color: #000;
 }
 
+footer nav a {
+  color: #fff;
+}
 .white-txt {
   color: white;
 }

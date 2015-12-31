@@ -33,6 +33,11 @@ font-family: 'Ubuntu', sans-serif;
   color: #fff;
 }
 
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
 .white-txt {
   color: white;
 }
@@ -124,6 +129,12 @@ font-family: 'Ubuntu', sans-serif;
   top: 0;
 }
 
+.wordmark-size {
+  width: 12em;
+}
+
+
+
 
 @media only screen and (min-width: 38em) {
 html
@@ -140,7 +151,12 @@ h1{
 
 .nav {
   text-align: right;
-  }
+}
+
+.section-mid {
+  background-color: #fff;
+}
+
 
 }
 

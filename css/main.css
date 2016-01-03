@@ -46,30 +46,24 @@ footer nav a {
 }
 
 .img1 {
-  background-image: url("../img/tattoos-hands.jpg");
+  background-image: url("../img/background-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px, -100px, 0px, 0px;
 }
 
 .img2 {
-  background-image: url("../img/tattoos-2.jpg");
+  background-image: url("../img/background-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 
 }
 
 .img3 {
-  background-image: url("../img/tattoo-04.jpg");
+  background-image: url("../img/background-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0px, -100px, 0px, 0px;
-}
-
-.img4 {
-  background-image: url("../img/image-2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .title {

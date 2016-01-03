@@ -40,7 +40,13 @@ header nav a {
 
 footer nav a {
   color: #fff;
+  text-decoration: none;
 }
+
+fieldset {
+  border: none;
+}
+
 .white-txt {
   color: white;
 }
@@ -129,8 +135,6 @@ footer nav a {
 .wordmark-size {
   width: 12em;
 }
-
-
 
 
 @media only screen and (min-width: 38em) {
